@@ -1,0 +1,44 @@
+/* Estilos personalizados */
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+}
+        
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 35px;
+    }
+}
+        
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+        
+.product-section {
+    padding: 3rem 0;
+}
+        
+.card {
+    transition: transform 0.3s;
+}
+        
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+        
+.btn-custom {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+        
+.btn-custom:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+        
+.filter-buttons {
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,88 @@
+/* ====== GENERAL ====== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1 {
+  font-weight: 700;
+  color: #dc3545; /* Rojo corporativo */
+}
+
+h3 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+  padding: 0.8rem 1rem;
+}
+
+.navbar-brand img {
+  max-height: 45px;
+}
+
+/* ====== TABLA DEL CARRITO ====== */
+#carrito-table {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#carrito-table thead {
+  background: linear-gradient(90deg, #dc3545, #ff6b6b);
+  color: white;
+  font-weight: 600;
+}
+
+#carrito-table th, 
+#carrito-table td {
+  vertical-align: middle;
+  text-align: center;
+  padding: 1rem;
+}
+
+#carrito-table tbody tr:hover {
+  background-color: #fbeaea;
+  transition: background 0.3s ease;
+}
+
+/* ====== BOTONES DE ACCIÓN ====== */
+#carrito-table button {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#carrito-table button:hover {
+  transform: scale(1.05);
+}
+
+/* ====== SECCIÓN TOTAL ====== */
+.text-end {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 2px solid #ddd;
+}
+
+#carrito-total {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.btn-danger {
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #bb2d3b;
+  transform: translateY(-2px);
+}
